@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "build",
+      "path": "Medium Frontend",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "npm: build - Medium Frontend",
+      "detail": "tsc && vite build"
+    },
+    {
+      "type": "npm",
+      "script": "dev",
+      "path": "Medium Frontend",
+      "problemMatcher": [],
+      "label": "npm: dev - Medium Frontend",
+      "detail": "vite"
+    }
+  ]
+}

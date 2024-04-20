@@ -3,7 +3,7 @@ import { Auth } from "../components/Auth";
 
 export const Signup = () => {
   return (
-    <div className="grid lg:grid-cols-2 grid-cols-1">
+    <div className="grid lg:grid-cols-2 grid-cols-1 h-screen">
       <div>
         <Auth type="signup" />
       </div>
